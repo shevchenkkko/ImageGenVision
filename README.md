@@ -37,7 +37,6 @@ The application allows users to either enter a prompt to generate an image or up
 1. Clone the repository:
     ```bash
     git clone https://github.com/shevchenkkko/ImageGenVision.git
-    cd ImageGenVision
     ```
 2. Create a virtual environment and activate it:
     ```bash
@@ -70,14 +69,14 @@ The application allows users to either enter a prompt to generate an image or up
 Here are some screenshots of the application:
 
 - **Screenshot 1: Application Home Page**
-  ![Home Page](media/screenshots/home_page.png)
+  ![Home Page](static/img/screenshots/home_page.png)
 
 - **Screenshot 2: Image Generation Feature**
-  ![Image Generation](media/screenshots/generate_photo1.png)
-  ![Image Generation](media/screenshots/generate_photo2.png)
+  ![Image Generation](static/img/screenshots/generate_photo1.png)
+  ![Image Generation](static/img/screenshots/generate_photo2.png)
 
 - **Screenshot 3: Image Description Feature**
-  ![Image Description](media/screenshots/describe_photo.png)
+  ![Image Description](static/img/screenshots/describe_photo.png)
 
 ## Contact
 If you have any questions or suggestions, please feel free to contact me through my [GitHub profile](https://github.com/shevchenkkko).
