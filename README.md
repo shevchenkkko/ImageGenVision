@@ -34,20 +34,20 @@ The application allows users to either enter a prompt to generate an image or up
 - Django security key
   
 ### Steps
-1. Clone the repository:
+1. **Clone the repository:**
     ```bash
     git clone https://github.com/shevchenkkko/ImageGenVision.git
     ```
-2. Create a virtual environment and activate it:
+2. **Create a virtual environment and activate it:**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
-3. Install the required packages:
+3. **Install the required packages:**
     ```bash
     pip install -r requirements.txt
     ```
-4. Set up the environment variables:
+4. **Set up the environment variables:**
     - Create a `.env` file in the root directory and add the following variables:
       ```
       SECRET_KEY=your_secret_key
@@ -56,12 +56,12 @@ The application allows users to either enter a prompt to generate an image or up
       ```
     - To generate a `SECRET_KEY`, you can use [Django Secret Key Generator](https://djecrety.ir/)
     -  Ensure you have sufficient balance on your OpenAI account.
-5. Apply the migrations:
+5. **Apply the migrations:**
     ```bash
     python manage.py makemigrations
     python manage.py migrate
     ```
-6. Start the development server:
+6. **Start the development server:**
     ```sh
     python manage.py runserver
     ```
